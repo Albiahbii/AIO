@@ -10,6 +10,7 @@ mv aio.py aio
 cp aio ~/bin
 export PATH="$PATH:~/bin"
 source ~/.bashrc
+source ~/.profile
 clear
 clear
 apt update -y && apt upgrade -y
