@@ -15,7 +15,7 @@ declare -a packages=("python" "python2")
  clear
 python3 -m pip install -r requirements.txt
 clear
-cp aio $PREFIX/bin
+sudo cp aio $PREFIX/bin
 rm -rf install
 rm -rf requirements.txt
 echo "Done installing. type 'python aio' to start the program"
