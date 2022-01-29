@@ -24,7 +24,7 @@ fi
 
 cp aio.py ~/bin
 mv ~/bin/aio.py ~/bin/aio
-export PATH="~/bin:$PATH"
+export PATH="$PATH:~/bin"
 source ~/.bashrc
 clear
 echo "Done installing"
