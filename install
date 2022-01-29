@@ -17,4 +17,4 @@ python3 -m pip install -r requirements.txt
 clear
 rm -rf install
 rm -rf requirements.txt
-echo "Done installing. type 'python aio' to start the program"
+echo "Done installing. type 'python3 aio' to start the program"
