@@ -1,16 +1,5 @@
 #!/usr/bin/env bash
 
-if [ -d ~/bin ]; then 
-    echo ""
-else 
-    mkdir -p ~/bin
-fi
-chmod +x aio.py
-mv aio.py aio
-cp aio ~/bin
-export PATH="$PATH:~/bin"
-source ~/bin
-clear
 clear
 apt update -y && apt upgrade -y
 clear
@@ -26,5 +15,7 @@ declare -a packages=("python" "python2")
  clear
 python3 -m pip install -r requirements.txt
 clear
+mv aio.py aio
+cp aio cd $PREFIX/bin
 rm -rf aio.sh
 echo "Done installing. type 'python aio' to start the program"
