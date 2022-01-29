@@ -3,7 +3,5 @@
 clear
 cd ..
 rm -rf AIO
-cd $PREFIX/bin
-rm -rf aio
 cd
 echo "Uninstalled AIO"
