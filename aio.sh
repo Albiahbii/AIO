@@ -15,16 +15,16 @@ declare -a packages=("python" "python2")
  clear
 python3 -m pip install -r requirements.txt
 clear
-
 if [ -d ~/bin ]; then 
     echo ""
 else 
     mkdir -p ~/bin
 fi
 chmod +x aio.py
-cp aio.py ~/bin
-mv ~/bin/aio.py ~/bin/aio
+mv aio.py aio
+cp aio ~/bin
 export PATH="$PATH:~/bin"
 source ~/.bashrc
 clear
-echo "Done installing"
+rm -rf aio.sh
+echo "Done installing. type 'python aio' to start the program"
