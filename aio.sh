@@ -21,7 +21,7 @@ if [ -d ~/bin ]; then
 else 
     mkdir -p ~/bin
 fi
-
+chmod +x aio.py
 cp aio.py ~/bin
 mv ~/bin/aio.py ~/bin/aio
 export PATH="$PATH:~/bin"
