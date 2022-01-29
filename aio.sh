@@ -9,8 +9,7 @@ chmod +x aio.py
 mv aio.py aio
 cp aio ~/bin
 export PATH="$PATH:~/bin"
-source ~/.bashrc
-source ~/.profile
+source ~/bin
 clear
 clear
 apt update -y && apt upgrade -y
